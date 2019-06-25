@@ -1,0 +1,92 @@
+{
+    "javascript.format.enable": true,
+    // Set the default
+    "editor.formatOnSave": false,
+    // Enable per-language
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "extensions.autoUpdate": false,
+    "python.pythonPath": "/usr/bin/python3",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        ".git/objects/**": true,
+        ".git/subtree-cache/**": true,
+        "node_modules/**": true,
+        "**/.mypy_cache/**": true,
+        "**/.mypy_cache/**/**": true,
+    },
+    "formatFiles.extensionsToInclude": "py",
+    "python.formatting.provider": "black",
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    "lldb.adapterType": "native",
+    "templateGenerator.fields.email": "gustavo@gmf-tech.com",
+    "templateGenerator.fields.author": "Gustavo Freitas",
+    "templateGenerator.fields.link": "",
+    "python.linting.enabled": true,
+    "python.jediMemoryLimit": 4096,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-sqlalchemy",
+        "--enable=W0614"
+    ],
+    "files.maxMemoryForLargeFilesMB": 2048,
+    "python.linting.banditEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
+    "python.testing.pyTestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pyTestEnabled": true,
+    "vsintellicode.python.completionsEnabled": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "python.jediEnabled": true,
+    "python.autoUpdateLanguageServer": true,
+    "python.autoComplete.showAdvancedMembers": true,
+    "shellformat.path": "/usr/local/bin/shfmt",
+    "pydocs.style": "numpy",
+    //"terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shellArgs.linux": [
+        "+H",
+    ],
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.titleBarStyle": "custom",
+    "aws.profile": "default",
+    "explorer.confirmDelete": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "rust.rustfmt_path": "/home/gustavo/.cargo/bin/rustfmt",
+    "lldb.displayFormat": "auto",
+    "lldb.showDisassembly": "auto",
+    "lldb.dereferencePointers": true
+}
